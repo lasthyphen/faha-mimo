@@ -93,10 +93,9 @@
 		animation: slide-from-right 0.2s ease-out forwards;
 	}
 }
-
 @font-face {
 	font-family: gulliver;
-	src: url("/fonts/ElsevierGulliver-Regular.woff2") format("woff2");
+	src: url("https://tokens.dijets.io/utility-fonts/css/ElsevierGulliver-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -104,7 +103,7 @@
 
 @font-face {
 	font-family: calibre;
-	src: url("/fonts/FeyCalibre-Regular.woff2") format("woff2");
+	src: url("https://tokens.dijets.io/utility-fonts/css/FeyCalibre-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -112,7 +111,7 @@
 
 @font-face {
 	font-family: calibre;
-	src: url("/fonts/FeyCalibre-Regular.woff") format("woff");
+	src: url("https://tokens.dijets.io/utility-fonts/css/FeyCalibre-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -120,7 +119,7 @@
 
 @font-face {
 	font-family: calibre-light;
-	src: url("/fonts/FeyCalibre-light.woff2") format("woff2");
+	src: url("https://tokens.dijets.io/utility-fonts/css/FeyCalibre-light.woff2") format("woff2");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
@@ -128,7 +127,7 @@
 
 @font-face {
 	font-family: calibre-light;
-	src: url("/fonts/FeyCalibre-light.woff") format("woff");
+	src: url("https://tokens.dijets.io/utility-fonts/css/FeyCalibre-light.woff") format("woff");
 	font-weight: 300;
 	font-style: normal;
 	font-display: swap;
