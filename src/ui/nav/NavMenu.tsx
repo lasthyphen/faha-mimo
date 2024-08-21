@@ -45,7 +45,7 @@ export function NavMenu() {
 							<li className="row-span-3  bg-gradient-to-b from-muted/50 to-muted">
 								<NavigationMenuLink asChild>
 									<YnsLink
-										className="flex h-[160px] w-[230px] md:h-full md:w-full select-none flex-col justify-end rounded-md bg-[url('https://tokens.dijets.io/faha-menu-2.svg')] md:bg-contain bg-cover bg-no-repeat bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+										className="flex h-[160px] w-[230px] md:h-full md:w-full select-none flex-col justify-end rounded-md bg-[url('https://tokens.dijets.io/faha-menu-2.svg')] md:bg-contain bg-cover bg-no-repeat p-6 no-underline outline-none focus:shadow-md"
 										href="/"
 									>
 										<p className="leading-tight text-muted-foreground opacity-0 md:opacity-100">
