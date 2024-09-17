@@ -8,6 +8,7 @@ import { Newsletter } from "@/ui/footer/Newsletter.client";
 
 export async function Footer() {
 	const t = await getTranslations("Global.footer");
+	const phone_url = "+92 322 6396970"
 	return (
 		<footer className="w-full bg-neutral-50 p-6 text-neutral-800 md:py-12">
 			<div className="container flex max-w-7xl flex-row flex-wrap justify-center gap-16 text-sm sm:justify-between">
@@ -91,7 +92,7 @@ export async function Footer() {
 							<li>
 								<YnsLink
 									className="underline-offset-4 hover:underline"
-									href="mailto:hello@faha.com"
+									href="mailto:couturefaha@gmail.com"
 								>
 									Contact Us
 								</YnsLink>
@@ -105,20 +106,46 @@ export async function Footer() {
 					<p>© 2024 Faha Couture Inc.</p>
 					<p>Handcrafted Fashion</p>
 				</div>
-				<div className="flex items-center gap-4">
+				<div className="flex items-center gap-8">
 					<YnsLink
 						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
-						href="https://x.com/faha"
+						href="https://www.instagram.com/faha.couture/"
 					>
-						<TwitterIcon className="h-4 w-4" /> @faha
-						<span className="sr-only">Twitter</span>
+						<svg
+      className="icon icon--instagram"
+      width={18}
+      height={18}
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.722 17.347c-.024 0-.024 0 0 0L4.102 17.3c-1.765 0-3.178-1.436-3.178-3.202L.97 4.232c0-1.742 1.436-3.155 3.179-3.155h.023l10.62.047c.847 0 1.647.33 2.236.942.589.612.918 1.413.918 2.26l-.047 9.866c0 .848-.33 1.648-.941 2.237a3.235 3.235 0 01-2.237.918zM4.15 1.783a2.472 2.472 0 00-2.473 2.473l-.047 9.842a2.472 2.472 0 002.473 2.472l10.619.047c.659 0 1.271-.259 1.742-.706.47-.471.73-1.083.73-1.743l.047-9.865c0-.66-.259-1.272-.706-1.743a2.44 2.44 0 00-1.743-.73L4.15 1.783zm5.274 11.89A4.472 4.472 0 014.95 9.2a4.472 4.472 0 014.474-4.474A4.472 4.472 0 0113.898 9.2a4.472 4.472 0 01-4.474 4.474zm0-8.24A3.778 3.778 0 005.657 9.2a3.778 3.778 0 003.767 3.768A3.778 3.778 0 0013.19 9.2a3.763 3.763 0 00-3.767-3.767zm4.497-.236a.87.87 0 01-.871-.87c0-.472.4-.872.871-.872s.871.4.871.871-.4.871-.87.871zm0-1.271c-.212 0-.4.188-.4.4 0 .212.188.4.4.4.212 0 .4-.188.4-.4 0-.212-.188-.4-.4-.4z"
+        fill="currentColor"
+      />
+    </svg>faha.couture
 					</YnsLink>
 					<YnsLink
 						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
-						href="https://x.com/faha"
+						href={`${phone_url}`}
 					>
-						<TwitterIcon className="h-4 w-4" /> @faha-couture
-						<span className="sr-only">Twitter</span>
+						    <svg
+      width={18}
+      height={18}
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_794_63)" stroke="currentColor" strokeWidth={0.7}>
+        <path d="M16.095 16.54a1.363 1.363 0 00.837-1.74l-.453-1.292a1.366 1.366 0 00-1.744-.843c-2.578.904-3.486-1.668-3.939-2.962-.454-1.294-1.357-3.858 1.21-4.765a1.367 1.367 0 00.838-1.74l-.454-1.292a1.368 1.368 0 00-1.717-.837C7.45 2.203 5.97 4.171 8.235 10.617c2.264 6.447 4.639 7.05 7.86 5.923z" />
+        <path d="M9.94 14.393a1.334 1.334 0 00-.936 1.273 1.334 1.334 0 01-2.668 0 1.334 1.334 0 00-2.668 0 1.334 1.334 0 01-2.668 0" />
+      </g>
+      <defs>
+        <clipPath id="clip0_794_63">
+          <path fill="currentColor" d="M0 0H18V18H0z" />
+        </clipPath>
+      </defs>
+    </svg> +92 322 6396970
 					</YnsLink>
 				</div>
 			</div>
