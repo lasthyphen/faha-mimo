@@ -12,7 +12,7 @@ export const Categories = [
 export const Nav = () => {
 	return (
 		<header className="border-b py-4">
-			<div className="sm:items-centerm mx-auto flex max-w-7xl flex-col md:items-center gap-2 px-4 sm:flex-row sm:flex-wrap items-center sm:px-6 md:flex-nowrap lg:px-8">
+			<div className="sm:items-centerm mx-auto flex max-w-7xl flex-col md:items-center lg:gap-2 gap-6 px-4 sm:flex-row sm:flex-wrap items-center sm:px-6 md:flex-nowrap lg:px-8">
 			<YnsLink href="/">
 				<Image
               className="md:hidden block"
